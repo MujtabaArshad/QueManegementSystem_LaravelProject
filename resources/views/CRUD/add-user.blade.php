@@ -75,7 +75,7 @@
         <input type="number" name="NTN"   class="form-control @error('NTN') is-invalid @enderror" id="NTN" placeholder="Enter NTN" value="{{ old('NTN') }}" />
         @error('NTN')
 
-        
+
         <div class="invalid-feedback">{{ $message }}</div>
         @enderror
         </div>
